@@ -1,3 +1,9 @@
 {
-  "moduleResolution": "node"
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "generated/*"]
+    },
+    "moduleResolution": "node"
+  }
 }
